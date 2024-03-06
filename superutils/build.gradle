@@ -44,7 +44,7 @@ afterEvaluate {
     android.libraryVariants.each {variant->
         publishing.publications.create(variant.name,MavenPublication){
             from components.findByName(variant.name)
-            groupId = 'com.yangzaiarea.superapp'
+            groupId = 'com.yangzaiarea'
             artifactId = 'yzutils'
             version = '1.0.0'
         }
