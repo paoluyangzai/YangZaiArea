@@ -1,10 +1,2 @@
 jdk:
   - openjdk17
-before_install:
-  - sdk install java 17.0.7
-  - sdk use java 17.0.7
-install:
-  - echo "Running a custom install command"
-  - ./gradlew clean install -xtest
-env:
-  MYVAR: "custom environment variable"
