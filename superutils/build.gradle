@@ -5,7 +5,7 @@ plugins {
 }
 task generateSourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
-    classifier 'sources'
+//    classifier 'sources'
 }
 android {
     namespace 'com.yangzai.superutils'
