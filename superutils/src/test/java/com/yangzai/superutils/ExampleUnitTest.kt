@@ -1,5 +1,6 @@
 package com.yangzai.superutils
 
+import android.util.Log
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -11,7 +12,18 @@ import org.junit.Assert.*
  */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun testUserUtilsExt() {
+        println("13693538454".yzDesensitizedPhoneNumber())
+        println("许阳".yzDesensitizedUsername())
+        println("307315148q.com".yzCheckEmail())
+        println("1369353845".yzCheckPhone())
+        println("11021199510021811".yzCheckIdcard())
+        println("12356".yzCheckPassword())
+    }
+    @Test
+    fun testStringUtilsExt(){
+        println("111aaa2b3c4d".yzSplitNumbers())
+        println("111aaa2b3c4d".yzSplitNotNumber())
+        println("111aaa2b3c4d".yzIsIncludeDigit())
     }
 }
