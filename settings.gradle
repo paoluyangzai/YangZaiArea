@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "YangZaiSuperrrrrrrrrrr"
+rootProject.name = "yz-utils"
 include ':app'
 include ':superutils'
