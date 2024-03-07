@@ -48,7 +48,6 @@ afterEvaluate {
             artifactId = 'yzutils'
             version = '1.0.0'
         }
-
     }
 }
 
